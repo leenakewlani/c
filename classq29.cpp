@@ -9,7 +9,7 @@ int main()
     printf("Enter five subjects marks:%f%f%f%f%f",phy,chem,bio,math,IP);
     scanf("%f%f%f%f%f", &phy, &chem, &bio, &math, &IP);
     total=phy + chem + bio + math + IP;
-    t1=total*100;
+    t1=total*100; 
 
 
     per = t1 / 500;
