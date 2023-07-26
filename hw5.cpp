@@ -10,7 +10,7 @@ int main()
     printf("Enter no of columns: ");
     scanf("%d", &c);
 
-    for(i=5; i<=r; i--)
+    for(i=r; i<=r; i--)
     {
         for(j=1; j<=c; j++)
         {
