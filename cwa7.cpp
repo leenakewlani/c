@@ -1,13 +1,13 @@
-//no return no arguement(addition)
+//no return no arguement(multiplication)
 #include <stdio.h>
-void add();
+void mul();
 int main ()
 {
-	add();
+	mul();
 	return 0;
 	
 }
-void add()
+void mul()
 
 {
 
@@ -16,7 +16,7 @@ int a,b,c;
 
 printf("enter values of a and b");
 scanf("%d%d",&a,&b);
-c=a+b;
+c=a*b;
 printf("%d",c);
 
 }

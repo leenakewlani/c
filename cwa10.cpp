@@ -1,22 +1,21 @@
-//no return no arguement(addition)
+//no return no arguement(modular)
 #include <stdio.h>
-void add();
+void mod();
 int main ()
 {
-	add();
+	mod();
 	return 0;
 	
 }
-void add()
+void mod()
 
 {
 
 int a,b,c;
 
-
 printf("enter values of a and b");
 scanf("%d%d",&a,&b);
-c=a+b;
+c=a%b;
 printf("%d",c);
 
 }

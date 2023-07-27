@@ -1,22 +1,22 @@
-//no return no arguement(addition)
+//no return no arguement(division)
+//no return no arguement(division)
 #include <stdio.h>
-void add();
+void div();
 int main ()
 {
-	add();
+	div();
 	return 0;
 	
 }
-void add()
+void div()
 
 {
 
 int a,b,c;
 
-
 printf("enter values of a and b");
 scanf("%d%d",&a,&b);
-c=a+b;
+c=a/b;
 printf("%d",c);
 
 }
